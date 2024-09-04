@@ -1,0 +1,21 @@
+.text-tech-container {
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+.techs-conatiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .text-tech-container {
+    padding: 0rem;
+  }
+
+  .techs-conatiner {
+    padding: 0rem;
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+  padding-bottom: 5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.videoWrapper {
+  padding: 5vh;
+  flex: 1;
+}
+
+.responsive-image {
+    max-width: 200%;
+    height: auto;
+  }
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center; /* Center items on mobile */
+  }
+
+  .videoWrapper {
+    height: auto;
+    padding: 0;
+    margin-top: 20px; /* Add space between location and video */
+  }
+}
